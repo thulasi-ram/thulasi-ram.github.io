@@ -27,6 +27,34 @@ $title-color: calc(#{var(--text-color)});
 	fill: var(--text-color);
 }
 
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+
+footer {
+	margin: 2em 0px;
+}
+
+.navbar-menu {
+	background-color: var(--background-color);
+	box-shadow: none;
+	@include mobile {
+		background-color:  rgba(var(--background-color), 0.3);
+	    border-bottom: 2px var(--text-color) solid;
+	}	
+}
+
+
+blockquote p {
+	color: #121212;
+}
+
 html { background-color: var(--background-color);}
 body { background-color: var(--background-color);  margin: 0 auto;  padding: 0;  font-family: $base-font-family;  font-size: $base-font-size;  color: var(--text-color);  text-align: left;  line-height: $base-line-height !important; }
 h1, h2, h3, h4, h5, h6 {color: var(--text-color) !important; }

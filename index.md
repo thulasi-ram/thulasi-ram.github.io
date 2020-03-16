@@ -4,7 +4,19 @@ layout: home
 permalink: /
 ---
 
-# Lorem ipsum
+# Me
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I am a self-taught web developer based out of Bengaluru, India.
 
+
+* purist 
+* pragmatist 
+* minimalist
+
+My objective is to change for better the quality of life of the people through the products I design and lead. I come with a hybrid background in both backend and frontend systems and exceptional experience working in fast-paced, deadline-oriented environments.  　
+* Comfortable with Python and its most popular frameworks (Django, Flask etc) and SQL(mostly postgres and little bit of DB2)
+* Ocassionally dabble with Javascript (Like this website), Java (I have strong reservations against this) and css frameworks like Boostrap, Semantic and Foundation
+* Ocassionally tried out languages like Haskell, Clojure, Go and Elixir (Toy projects)
+
+
+Professionally 5+ years of hands-on experience and exposure to both file based and messaging systems (Rabbitmq, Redis, SQS). Also well versed with Ops tools like Docker, Jenkins, AWS and UML.

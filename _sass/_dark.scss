@@ -2,13 +2,14 @@
  * Dark theme variables
  */
 
+
 :root {
   --base-color: #FFFFFF;
   --primary-color: #FFFFFF;
   --border: dashed 1px #FFFFFF;
   --selection-background: #FFFFFF;
-  --selection-text: #000;
-  --background-color: #000;
+  --selection-text: #121212;
+  --background-color: #121212;
   --text-color: var(--base-color);
   --placeholder-color: var(--base-color);
   --link-color: var(--base-color);
