@@ -2,7 +2,9 @@
 
 An improvement over https://b2a3e8.github.io/jekyll-theme-console using bulma for layouts.
 
-<img src="https://raw.githubusercontent.com/thulasi-ram/jekyll-theme-console/master/screenshot.png" width="550" title="Screenshot">
+DEMO: [thulasi-ram.github.io](http://thulasi-ram.github.io)
+
+<img src="https://raw.githubusercontent.com/thulasi-ram/thulasi-ram.github.io/master/screenshot.png" width="550" title="Screenshot">
 
 ##Dependencies
  * Bulma
