@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+{{ content }}
+{% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
+{% assign sorted_works = site.works | sort:'order' %}
+<div class="tabs" id="tabs">
+  <ul>
+  	{% for work in sorted_works %}
+    <li data-tab="{{forloop.index}}" {% if forloop.index == 1 %} class="is-active" {% endif %}>
+      <a>
+         {{ work.name }}
+      </a>
+    </li>
+	{% endfor %}
+
+  </ul>
+</div>
+<div id="tab-content">
+  {% for work in sorted_works %}
+  <div data-content="{{forloop.index}}" {% if forloop.index == 1 %} class="is-active" {% endif %} > {{ work.content | markdownify }} </div>
+  {% endfor %}
+</div>

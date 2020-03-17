@@ -1,5 +1,11 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Sen:400,700');
+
+$tabs-link-color: var(--text-color);
+$tabs-link-active-color: var(--text-color);
+$tabs-link-active-border-bottom-color: var(--text-color);
+
+
 @import "../bulma-0.8.0/bulma.sass";
 
 /**
@@ -12,7 +18,6 @@ $base-line-height:     1.5 !default;
 $container-width:      90% !default;
 $container-max-width:  600px !default;
 
-$title-color: calc(#{var(--text-color)});
 /**
  * Global
  */
@@ -21,6 +26,28 @@ $title-color: calc(#{var(--text-color)});
 	  @include mobile {
 	    max-width: inherit;
 	  }
+}
+
+#tab-content div {
+  display: none;
+  margin: 0em 3em;
+}
+
+#tab-content div.is-active {
+  display: block;
+}
+
+.tabs a:hover {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.tabs li.is-active a {
+	font-weight: bold;
+}
+
+.tabs a {
+	text-decoration: none;
 }
 
 #svg-logo {

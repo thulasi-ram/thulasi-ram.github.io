@@ -6,12 +6,24 @@ layout: default
 {% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
 
 {%- if site.posts.size > 0 -%}
-  <ul>
-    {%- for post in site.posts -%}
-    <li>
-      {%- assign date_format = "%Y-%m-%d" -%}
-      [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-    </li>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Posted On</th>
+      <th>Post</th>
+      <th>Tags</th>
+    </tr>
+  </thead>
+   <tbody>
+   	{%- for post in site.posts -%}
+    {%- assign date_format = "%Y-%m-%d" -%}
+    <tr>
+      <td>{{ post.date | date: date_format }}</td>
+      <td><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></td>
+      <td>{{post.tags | sort | join: ", " }}</td>
+    </tr>
     {%- endfor -%}
-  </ul>
+
+	</tbody>
+  </table>
 {%- endif -%}
