@@ -6,7 +6,7 @@
  * Style variables
  */
 $base-font-family:     'Sen', monospace !default;
-$base-font-size:       12.5px !default;
+$base-font-size:       13.5px !default;
 $mobile-font-size:     12px !default;
 $base-line-height:     1.5 !default;
 $container-width:      90% !default;
@@ -17,7 +17,7 @@ $title-color: calc(#{var(--text-color)});
  * Global
  */
 .container {
-	max-width: 600px !important;
+	max-width: $container-max-width;
 	  @include mobile {
 	    max-width: inherit;
 	  }
