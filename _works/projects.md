@@ -3,8 +3,6 @@ name: Projects
 order: 1
 ---
 
-# Projects
-
 > **Experience**  
 > Treebo: Mar 2018 - present  
 > Innoventes Technologies: May 2016 - Feb 2018  
