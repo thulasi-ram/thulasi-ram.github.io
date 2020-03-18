@@ -9,17 +9,17 @@ layout: default
 <table class="table">
   <thead>
     <tr>
-      <th>Posted On</th>
-      <th>Post</th>
-      <th>Tags</th>
+      <th class="is-11">Post</th>
+      <th class="is-5">Posted On</th>
+      <th class="is-2">Tags</th>
     </tr>
   </thead>
    <tbody>
    	{%- for post in site.posts -%}
     {%- assign date_format = "%Y-%m-%d" -%}
     <tr>
-      <td>{{ post.date | date: date_format }}</td>
       <td><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></td>
+      <td>{{ post.date | date_to_string }}</td>
       <td>{{post.tags | sort | join: ", " }}</td>
     </tr>
     {%- endfor -%}
