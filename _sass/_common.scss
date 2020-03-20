@@ -1,0 +1,16 @@
+:root {
+  --background-color: #e5e5e5;
+  --duration: 0.5s;
+  --timing: ease;
+}
+
+html { 
+  background-color: var(--background-color);
+  transition: color var(--duration) var(--timing), background-color var(--duration) var(--timing);
+}
+
+body {
+    transition: visibility 0s, opacity 1s linear;
+    opacity: 0;
+    visibility: hidden;
+}
