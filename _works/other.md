@@ -1,6 +1,6 @@
 ---
 name: Other
-order: 3
+order: 4
 ---
 ## Volunteer, Shiksha Foundation
 _August 2015 - March 2016_  

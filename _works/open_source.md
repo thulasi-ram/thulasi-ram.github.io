@@ -1,6 +1,6 @@
 ---
 name: Open Source
-order: 2
+order: 3
 ---
 
 ## Feature Toggle, PyPi
@@ -13,12 +13,12 @@ A simple python package which serves as a framework for diffing and patching com
 
 ## Ivory 
 _March 2018 - stalled_  
-A CRM for India. Supports GST. Draws inspirations from git. Provides clear hierarchy to avoid duplicated data entries. 
+A CRM taht supports GST. Draws inspirations from git. Provides clear hierarchy to avoid duplicated data entries. 
 
 ## Logistika 
 _February 2017 - discontinued_  
 A django project aimed at building modular order management system which can also serve as Vendor portal. Features full user registration/Login, Audit log, Access control and Vendor Discovery. This project also served as a  means to refresh my frontend skills as well.
 
-## Argos 
+## Argos  
 _December 2017 - conceptualized_  
 The aim of argos is to categorize and provide semantic search on images in our photo galleries. This is done by extracting text out of images partly on the device and partly on cloud and processing it.

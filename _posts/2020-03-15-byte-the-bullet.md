@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Byte The Bullet
-tags: [personal, blog, portfolio]
+tags: [personal, portfolio]
 ---
 
 Byte The Bullet

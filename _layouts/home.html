@@ -9,7 +9,7 @@ layout: default
 <span class="inverted" style="padding: 3px;">LATEST POSTS</span>
 </h6>
 
-<div>
+<div class="content">
 {%- if site.posts.size > 0 -%}
   <ul>
     {%- for post in site.posts limit:5 -%}
@@ -20,5 +20,5 @@ layout: default
     {%- endfor -%}
   </ul>
 {%- endif -%}
-<a href="/blog" class="is-pulled-right"> more.. </span>
+<a href="/blog" class="is-pulled-right"> more.. </a>
 </div>
