@@ -6,7 +6,7 @@ permalink: /
 
 # Me
 
-> I am a self-taught web developer based out of Bengaluru, India.
+> I am a backend engineer and web developer based out of Bengaluru, India.
 > <p align="center" style="font-weight:bold;"> purist • pragmatist • minimalist </p>
 
 
