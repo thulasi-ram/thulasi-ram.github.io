@@ -103,14 +103,13 @@ footer {
 	}	
 }
 
-
 blockquote p {
 	color: #121212;
 }
 
 html { 
 	background-color: var(--background-color) !important;
-	transition: color var(--duration) var(--timing), background-color var(--duration) var(--timing);
+    transition: color var(--duration) var(--timing), background-color var(--duration) var(--timing);
 }
 
 @keyframes fade-in {
@@ -124,8 +123,8 @@ body {
 	animation-duration: var(--duration);
 	visibility: visible;
   	opacity: 1;
-	background-color: 
-	var(--background-color);  margin: 0 auto;  
+	background-color: var(--background-color);  
+	margin: 0 auto;  
 	padding: 0;  
 	font-family: $base-font-family;  
 	font-size: $base-font-size;  
@@ -148,8 +147,6 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
 }
 
 .menu1 { background-color: var(--background-color); }
-// .menu ul { margin-top: 12px;  margin-bottom: 12px;  padding-left: 0px;  list-style-type: none;  text-align: right; }
-// .menu ul li { display: inline;  margin-left: 10px; }
 .menu1 div a { text-decoration: (none !important);  color: var(--text-color); }
 .menu1 div a:hover { text-decoration: none; color: var(--background-color); background-color: var(--base-color); }
 
