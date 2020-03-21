@@ -13,7 +13,7 @@ A simple python package which serves as a framework for diffing and patching com
 
 ## Ivory 
 _March 2018 - stalled_  
-A CRM taht supports GST. Draws inspirations from git. Provides clear hierarchy to avoid duplicated data entries. 
+A CRM that supports GST. Draws inspirations from git. Provides clear hierarchy to avoid duplicated data entries. 
 
 ## Logistika 
 _February 2017 - discontinued_  
