@@ -107,6 +107,15 @@ blockquote p {
 	color: #121212;
 }
 
+blockquote a {
+	color: #121212;
+}
+
+blockquote a:hover {
+	color: #FFF;
+	background-color: #121212;
+}
+
 html { 
 	background-color: var(--background-color) !important;
     transition: color var(--duration) var(--timing), background-color var(--duration) var(--timing);
