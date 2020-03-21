@@ -29,7 +29,7 @@ $container-max-width:  600px !default;
  * Global
  */
 
- $widthAmounts: (1, 2.5, 3, 4 , 5, 6, 7, 10, 11, 12, 14, 16, 20, 26, 32); // Just add the numbers here, you can use points too.
+$widthAmounts: (1, 2.5, 3, 4 , 5, 6, 7, 10, 11, 12, 14, 16, 20, 26, 32); // Just add the numbers here, you can use points too.
 $widthUnit: "em"; // Add the unit here (rem|em|px|%)
 
 @each $width in $widthAmounts {
@@ -89,8 +89,9 @@ a[target='_blank']:hover::after {
 }
 
 footer {
-	margin: 2em 0px;
+	margin-top: 2em;
 	color: var(--footer-text);
+	border-top: #6363635e 1px solid;
 }
 
 .navbar-menu {
