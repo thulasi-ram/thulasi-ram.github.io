@@ -1,19 +1,12 @@
-/**
- * Dark theme variables
- */
-
-
 :root {
+  --background-color: #121212;
   --base-color: #FFFFFF;
   --border: dashed 1px #FFFFFF;
   --selection-background: #fffffffa;
   --selection-text: #121212;
-  --background-color: #121212;
   --text-color: var(--base-color);
   --placeholder-color: var(--base-color);
   --link-color: var(--base-color);
   --tab-underline: #3c3b3b;
   --footer-text: #bbbbbb;
-  --duration: 0.5s;
-  --timing: ease;
 }

@@ -1,16 +1,20 @@
 :root {
-  --background-color: #e5e5e5;
+  --background-color: #212121;
+  --base-color:  #212121;
+  --border: dashed 1px rgba(0, 0, 0, 1);
+  --selection-background: rgba(var(--background-color), 0.99);
+  --selection-text: var(--background-color);
+  --text-color: var(--base-color);
+  --placeholder-color: var(--base-color);
+  --link-color: var(--base-color);
+  --tab-underline: var(--background-color);
+  --footer-text: var(--background-color);
   --duration: 0.5s;
   --timing: ease;
 }
 
-html { 
-  background-color: var(--background-color);
-  transition: color var(--duration) var(--timing), background-color var(--duration) var(--timing);
-}
 
 body {
-    transition: visibility 0s, opacity 1s linear;
     opacity: 0;
     visibility: hidden;
 }

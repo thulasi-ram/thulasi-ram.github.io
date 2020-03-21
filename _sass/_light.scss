@@ -1,19 +1,12 @@
-/**
- * Light theme variables
- */
-
-
 :root {
+  --background-color: #FFF;
   --base-color: #000;
   --border: dashed 1px rgba(0, 0, 0, 1);
   --selection-background: rgba(0, 0, 0, 0.99);
   --selection-text: #FFF;
-  --background-color: #FFF;
   --text-color: var(--base-color);
   --placeholder-color: var(--base-color);
   --link-color: var(--base-color);
   --tab-underline: #bbbbbb;
   --footer-text: #5d5d5d;
-  --duration: 0.5s;
-  --timing: ease;
 }

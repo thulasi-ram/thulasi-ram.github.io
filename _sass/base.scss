@@ -108,7 +108,7 @@ blockquote p {
 }
 
 html { 
-	background-color: var(--background-color);
+	background-color: var(--background-color) !important;
 	transition: color var(--duration) var(--timing), background-color var(--duration) var(--timing);
 }
 
@@ -120,7 +120,7 @@ html {
 body { 
 	transition: color var(--duration) var(--timing), background-color var(--duration) var(--timing);
 	animation-name: fade-in;
-	animation-duration: .5s;
+	animation-duration: var(--duration);
 	visibility: visible;
   	opacity: 1;
 	background-color: 
@@ -142,8 +142,8 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
 .inverted { background: var(--selection-background);  color: var(--selection-text) !important; }
 
 #dark-mode-toggle-1 {
-	--dark-mode-toggle-light-icon: url(/assets/moon.svg);
-	--dark-mode-toggle-dark-icon: url(/assets/sun.svg);
+	--dark-mode-toggle-light-icon: url(/assets/brightness.svg);
+	--dark-mode-toggle-dark-icon: url(/assets/brightness.svg);
 }
 
 .menu1 { background-color: var(--background-color); }
