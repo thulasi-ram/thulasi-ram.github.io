@@ -157,6 +157,7 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
 
 #dark-mode-toggle {
 	--dark-mode-toggle-icon-size: 0px;
+	text-decoration: underline;
 }
 
 .menu1 { background-color: var(--background-color); }
