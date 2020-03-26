@@ -17,4 +17,4 @@ permalink: /more
 
 
 # Hobbies
-I like to play [chess](https://lichess.org/@/thulasi503), swim, surf the web, read [books](https://www.goodreads.com/thulasi-ram){:target="_blank"} and listen to music.
+I like to play [chess](https://lichess.org/@/thulasi503){:target="_blank"}, swim, surf the web, read [books](https://www.goodreads.com/thulasi-ram){:target="_blank"} and listen to music.
