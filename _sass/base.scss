@@ -156,8 +156,6 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
 .inverted { background: var(--selection-background);  color: var(--selection-text) !important; }
 
 #dark-mode-toggle {
-	// --dark-mode-toggle-light-icon: url(/assets/brightness.svg);
-	// --dark-mode-toggle-dark-icon: url(/assets/brightness.svg);
 	--dark-mode-toggle-icon-size: 0px;
 }
 
