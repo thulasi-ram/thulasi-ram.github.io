@@ -94,6 +94,11 @@ footer {
 	border-top: #6363635e 1px solid;
 }
 
+footer small {
+	display: block;
+	padding-top: 0.5em;
+}
+
 .navbar-menu {
 	background-color: var(--background-color);
 	box-shadow: none;
@@ -150,9 +155,10 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
 ::-moz-selection { background: var(--selection-background);  color: var(--selection-text); }
 .inverted { background: var(--selection-background);  color: var(--selection-text) !important; }
 
-#dark-mode-toggle-1 {
-	--dark-mode-toggle-light-icon: url(/assets/brightness.svg);
-	--dark-mode-toggle-dark-icon: url(/assets/brightness.svg);
+#dark-mode-toggle {
+	// --dark-mode-toggle-light-icon: url(/assets/brightness.svg);
+	// --dark-mode-toggle-dark-icon: url(/assets/brightness.svg);
+	--dark-mode-toggle-icon-size: 0px;
 }
 
 .menu1 { background-color: var(--background-color); }

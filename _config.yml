@@ -6,7 +6,7 @@ header_pages:
  - index.md
  - work.md
  - blog.md
- - contact.md
+ - more.md
 
 
 style: light # dark (default) or light
@@ -17,3 +17,6 @@ plugins:
 
 collections:
   - works
+
+sass:
+    style: compressed
