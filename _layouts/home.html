@@ -1,24 +1,20 @@
 ---
 layout: default
 ---
-
 {{ content }}
-{% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
-
 <h6 class="title is-6">
-<span class="inverted" style="padding: 3px;">LATEST POSTS</span>
+    <span class="inverted" style="padding: 3px;">LATEST POSTS</span>
 </h6>
-
 <div class="content">
-{%- if site.posts.size > 0 -%}
-  <ul>
-    {%- for post in site.posts limit:5 -%}
-    <li>
-      {%- assign date_format = "%Y-%m-%d" -%}
-      [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-    </li>
-    {%- endfor -%}
-  </ul>
-{%- endif -%}
-<a href="/blog" class="is-pulled-right"> more.. </a>
+    {%- if site.posts.size > 0 -%}
+    <ul>
+        {%- for post in site.posts limit:5 -%}
+        <li>
+            {%- assign date_format = "%Y-%m-%d" -%}
+            [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </li>
+        {%- endfor -%}
+    </ul>
+    {%- endif -%}
+    <a href="/blog" class="is-pulled-right"> more.. </a>
 </div>

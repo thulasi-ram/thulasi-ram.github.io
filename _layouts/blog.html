@@ -1,29 +1,25 @@
 ---
 layout: default
 ---
-
 {{ content }}
-{% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
-
 {%- if site.posts.size > 0 -%}
 <table class="table">
-  <thead>
-    <tr>
-      <th class="is-11">Post</th>
-      <th class="is-5">Posted On</th>
-      <th class="is-2">Tags</th>
-    </tr>
-  </thead>
-   <tbody>
-   	{%- for post in site.posts -%}
-    {%- assign date_format = "%Y-%m-%d" -%}
-    <tr>
-      <td><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></td>
-      <td>{{ post.date | date_to_string }}</td>
-      <td>{{post.tags | sort | join: ", " }}</td>
-    </tr>
-    {%- endfor -%}
-
-	</tbody>
-  </table>
+    <thead>
+        <tr>
+            <th class="is-11">Post</th>
+            <th class="is-5">Posted On</th>
+            <th class="is-2">Tags</th>
+        </tr>
+    </thead>
+    <tbody>
+        {%- for post in site.posts -%}
+        {%- assign date_format = "%Y-%m-%d" -%}
+        <tr>
+            <td><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></td>
+            <td>{{ post.date | date_to_string }}</td>
+            <td>{{post.tags | sort | join: ", " }}</td>
+        </tr>
+        {%- endfor -%}
+    </tbody>
+</table>
 {%- endif -%}

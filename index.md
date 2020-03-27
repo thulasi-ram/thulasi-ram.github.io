@@ -7,9 +7,18 @@ permalink: /
 
 # Me
 
-> I am a backend engineer and a web developer based out of Bengaluru, India.
-> <p align="center" style="font-weight:bold;"> purist • pragmatist • minimalist </p>
-> <p align="center" ><a href="{{ "/more" }}" class="has-text-centered" > more... </a></p>
+<blockquote>
+<div id="typed-strings">
+  <span>
+  	<p>I am a backend engineer and a web developer based out of Bengaluru, India.</p> 
+  	<p align="center" style="font-weight:bold;" id="typed2"> purist • pragmatist • minimalist </p>
+  	<p align="center" ><a href="{{ "/more" }}" class="has-text-centered"> more... </a></p>
+  </span>
+</div>
+<div id="typed"></div>
+</blockquote>
+
+
 
 My objective is to change for better the quality of life of the people through the products I design and lead. I come with a hybrid background in both backend and frontend systems and exceptional experience working in fast-paced, deadline-oriented environments.  　
 * Comfortable with Python and its most popular frameworks (Django, Flask etc) and SQL (mostly postgres and little bit of DB2)
