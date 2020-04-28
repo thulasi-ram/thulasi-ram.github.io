@@ -22,7 +22,7 @@ permalink: /
 
 My objective is to change for better the quality of life of the people through the products I design and lead. I come with a hybrid background in both backend and frontend systems and exceptional experience working in fast-paced, deadline-oriented environments.  　
 * Comfortable with Python and its most popular frameworks (Django, Flask etc) and SQL (mostly postgres and little bit of DB2)
-* Can dabble with Javascript, Java (I have strong reservations against this) and css frameworks like Boostrap, Semantic and Foundation
+* Can dabble with Javascript, Java and css frameworks like Boostrap, Semantic and Foundation
 * Ocassionally experimented with languages like Haskell, Clojure, Go and Elixir (Toy projects)
 
 
