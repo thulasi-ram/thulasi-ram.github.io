@@ -160,6 +160,10 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
 	text-decoration: underline;
 }
 
+.wip { 
+	color: var(--background-color) !important; 
+	background-color: var(--base-color) !important; 
+}
 .menu1 { background-color: var(--background-color); }
 .menu1 div a { text-decoration: (none !important);  color: var(--text-color); }
 .menu1 div a:hover { text-decoration: none; color: var(--background-color); background-color: var(--base-color); }
