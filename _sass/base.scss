@@ -51,8 +51,9 @@ a[target='_blank']:hover::after {
 }
 
 .more {
-	border: 1px solid var(--text-color);
-	border-bottom: 3px solid var(--text-color);
+	border-style: solid;
+	border-width: 1px 1px 3px 1px;
+	border-color: #121212;
 	padding: 2px;
 	text-decoration: none;
 	border-radius: 5px;
