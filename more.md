@@ -6,7 +6,7 @@ permalink: /more
 
 # Contact
 
-\[email\]: thulasi (five zero three _in numeric_) at gmail dot com  
+\[email\]: me {at} ahiravan.dev
 \[linkedin\]: [thulasi-ram](https://www.linkedin.com/in/thulasi-ram/){:target="_blank"}  
 \[github\]: [thulasi-ram](https://github.com/thulasi-ram){:target="_blank"}  
 \[stackoverflow\]: [thulasi-ram](https://stackoverflow.com/users/6323666/thulasi-ram){:target="_blank"}
