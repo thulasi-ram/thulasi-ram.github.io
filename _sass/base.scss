@@ -50,6 +50,14 @@ a[target='_blank']:hover::after {
 	  }
 }
 
+.more {
+	border: 1px solid var(--text-color);
+	border-bottom: 3px solid var(--text-color);
+	padding: 2px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
 
 
 #tab-content > div {
