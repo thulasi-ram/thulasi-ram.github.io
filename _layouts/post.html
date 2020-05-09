@@ -2,7 +2,14 @@
 layout: default
 ---
 {%- if page.status == 'wip' -%}
-<span class="wip tag is-rounded">This is a work in progess. It will be undordered, unstructured and just a gathering of thoughts</span>
+<article class="message is-dark is-warning is-small">
+  <div class="message-body">
+	<strong>Work in progress alert! </strong> 
+	</br>
+	This blog will be undordered, unstructured and just a gathering of thoughts.
+  </div>
+</article>
+
 {%- endif -%}
 
 {{ content }}
