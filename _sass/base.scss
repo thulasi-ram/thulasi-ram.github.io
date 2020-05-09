@@ -117,16 +117,16 @@ footer small {
 	}	
 }
 
-blockquote p {
-	color: #121212;
-}
-
-blockquote a {
-	color: #121212;
+blockquote p,
+blockquote h4,
+blockquote ul,
+blockquote a
+ {
+	color: #121212 !important;
 }
 
 blockquote a:hover {
-	color: #FFF;
+	color: #FFF !important;
 	background-color: #121212;
 }
 
