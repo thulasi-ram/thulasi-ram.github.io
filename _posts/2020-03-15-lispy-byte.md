@@ -25,3 +25,8 @@ Solving the sudoku in clojure: [Peter Norvig Sudoku solver with python](http://n
 * I didn't see a heavenly call yet
 
 
+#### 9th May 2020
+* Going through Edx How to Code in racket
+* Wondering why people are debating over TCO [http://neopythonic.blogspot.com/2009/04/tail-recursion-elimination.html](http://neopythonic.blogspot.com/2009/04/tail-recursion-elimination.html). I do think in programming we argue sometimes on the silly aspects
+
+
