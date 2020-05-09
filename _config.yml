@@ -1,12 +1,14 @@
 # Example Site settings
 
 #google_analytics: UA-NNNNNNNN-N
+include:
+  - _main
 
 header_pages:
- - index.md
- - work.md
- - blog.md
- - more.md
+ - _main/index.md
+ - _main/work.md
+ - _main/blog.md
+ - _main/more.md
 
 
 style: light # dark (default) or light

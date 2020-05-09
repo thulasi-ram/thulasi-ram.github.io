@@ -191,3 +191,6 @@ input[type=submit]:hover { color: var(--background-color); background-color: var
 *:focus { outline: none; }
 textarea { vertical-align: top; }
 
+#tabs ul {
+	margin-left: 0px;
+}
