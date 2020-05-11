@@ -12,7 +12,11 @@ permalink: /
   <span>
   	<p>I am a backend engineer and a web developer based out of Bengaluru, India.</p> 
   	<p align="center" style="font-weight:bold;" id="typed2"> purist • pragmatist • minimalist </p>
-  	<p align="center" ><a href="{{ "/more" }}" class="has-text-centered more"> more </a></p>
+  	<p align="center" >
+  		<a href="{{ "/work" }}" class="has-text-centered more"> experience </a> 
+  		<span> 	&nbsp; &nbsp; </span>
+  		<a href="{{ "/more" }}" class="has-text-centered more"> contact </a>
+  	</p>
   </span>
 </div>
 <div id="typed"></div>
