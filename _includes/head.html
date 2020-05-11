@@ -9,7 +9,7 @@
      <link rel="stylesheet" type="text/css" href="{{ "/assets/common.css" | relative_url }}">
      <link rel="stylesheet" type="text/css" href="{{ "/assets/light.css" | relative_url }}"  media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
       <link rel="stylesheet" type="text/css" href="{{ "/assets/dark.css" | relative_url }}"  media="(prefers-color-scheme: dark)">
-  {%- if jekyll.environment == 'production' and site.google_analytics -%}
-    {%- include google-analytics.html -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics_id -%}
+    {%- include analytics.html -%}
   {%- endif -%}
 </head>
