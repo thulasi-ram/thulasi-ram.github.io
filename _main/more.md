@@ -13,7 +13,7 @@ permalink: /more
 
 
 # Resume
-[view](/resume){:target="_blank"}   [download](https://docs.google.com/document/d/19U1NSPc4tTiaVzpPasZLVVWPzhY13PPFXWlBGOop7sE/export?format=pdf)
+[view](/resume){:target="_blank"}   [download]({{site.resume_google_doc_url}}/export?format=pdf)
 
 
 # Hobbies
