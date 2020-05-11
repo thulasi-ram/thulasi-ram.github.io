@@ -6,8 +6,11 @@ order: 2
 ## RMS Products, Treebo
 _December 2018 - present_  
 Overseeing the stability and scalability on RMS front.
-* Stabilized the pricing system
+* Re Architected the pricing system to be driven by events instead of API calls.
 * Scaled the discounts and coupon system built in java and uses the RETE algorithm to match the rules
+* Stabilized the inhouse catalog system and have developed an comprehensive onboarding system
+* Spent part of the time in devops aspects by creating pipelines, dockerizing projects and cost cutting initiatives 
+
 
 ## B2B Products, Treebo
 _May 2016 - December 2018_  

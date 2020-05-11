@@ -9,7 +9,7 @@ A python package which can be hooked onto Django as an app. The app is based on 
 
 ## Diff and Patch, PyPi
 _August 2018_  
-A simple python package which serves as a framework for diffing and patching complex objects. Inspired by git diff and patch.
+A simple python package which serves as a framework for diffing and patching complex objects. Inspired by git diff and patch. This is the library version of inhouse diffing flow used internally to modify bookings.
 
 ## Ivory 
 _March 2018 - stalled_  
