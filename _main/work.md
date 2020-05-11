@@ -23,7 +23,7 @@ permalink: /work
 {% endif %}
 
 > #### Total Exp: {{ total_exp }}+ years
-> * Treebo (Mar 2018 - present)
-> * Innoventes Technologies (May 2016 - Feb 2018)  
->  	+ <small>Contractor with treebo</small>
-> * Infosys (June 2014 - April 2016)
+> * **Treebo** (Mar 2018 - present)
+> * **Innoventes Technologies** (May 2016 - Feb 2018)  
+>  	+ <small>Contractor with **treebo**</small>
+> * **Infosys** (June 2014 - April 2016)
