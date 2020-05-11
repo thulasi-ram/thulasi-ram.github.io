@@ -11,7 +11,7 @@ permalink: /
 <div id="typed-strings">
   <span>
   	<p>I am a backend engineer and a web developer based out of Bengaluru, India.</p> 
-  	<p align="center" style="font-weight:bold;" id="typed2"> purist • pragmatist • minimalist </p>
+  	<p align="center" style="font-weight:bold;" id="typed2"> pragmatist • purist • minimalist </p>
   	<p align="center" >
   		<a href="{{ "/work" }}" class="has-text-centered more"> experience </a> 
   		<span> 	&nbsp; &nbsp; </span>
