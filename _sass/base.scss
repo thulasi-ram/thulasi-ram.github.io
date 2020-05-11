@@ -190,3 +190,22 @@ textarea { vertical-align: top; }
 #tabs ul {
 	margin-left: 0px;
 }
+
+#download_resume {
+  opacity: 0.5;
+  position:relative;
+  float: right;
+  right:30px;
+  bottom:50px;
+  transition: 0.5s;
+  border: 2px solid black;
+  padding: 2px;
+  color: black;
+  background-color: white;
+}
+
+#download_resume:hover {
+  color: white;
+  background-color: black;
+
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+{%- include head.html -%}
+
+<body class="container Site">
+    {%- include header.html -%}
+    <main class="Site-content" style="height: 80vh">
+
+                {{ content }}
+
+    </main>
+    {%- include footer.html -%}
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script type="text/javascript" src="{{ "/assets/navburger.js" | relative_url }}"></script>
+    <script type="text/javascript" src="{{ "/assets/typings.js" | relative_url }}"></script>
+    <script type="text/javascript" src="{{ "/assets/tabs.js" | relative_url }}"></script>
+    <script type="module" src="{{ "/assets/dark-mode-toggle.min.mjs" | relative_url }}"></script>
+</body>
+
+</html>
