@@ -10,7 +10,7 @@ Microservices are hard
 #### /rant
 
 Random day today like all other days but there was this idea still fresh in my mind from the yesterdays AWS Summit Online about microservices.
-There was a discussion by elara tech and how they have used microservices patters to scale. Some of mentioned patterns include
+There was a discussion by elara tech and how they have used microservices patterns to scale. Some of mentioned patterns include
 * ratelimiting
 * api gateway
 * circuit breaker
