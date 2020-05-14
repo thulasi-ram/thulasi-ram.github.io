@@ -1,5 +1,5 @@
 ---
-title: Ahiravan's Home
+title: /me
 layout: home
 description: Ahiravan's home and landing page
 permalink: /

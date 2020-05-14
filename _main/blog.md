@@ -1,5 +1,5 @@
 ---
-title: Ahiravan's Blog
+title: /blog
 layout: blog
 description: Ahiravan's blog posts, thoughts and musings on Tech and others
 permalink: /blog

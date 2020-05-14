@@ -1,5 +1,5 @@
 ---
-title: Ahiravans' Work
+title: /work
 layout: work
 description: Ahiravan's experience, projects and volunteering
 permalink: /work
