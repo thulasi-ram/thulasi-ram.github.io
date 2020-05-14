@@ -1,5 +1,6 @@
 ---
-title: /more
+title: Contact, Hobbies and more Ahriravan
+description: Ahiravan's gihub, linkedin, twitter contact details, hobbies and resume links
 layout: page
 permalink: /more
 ---
