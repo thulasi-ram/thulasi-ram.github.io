@@ -1,5 +1,5 @@
 ---
-title: Ahiravan Resume
+title: Ahiravan's Resume
 description: Ahiravan Resume and download
 layout: pdf
 permalink: /resume
