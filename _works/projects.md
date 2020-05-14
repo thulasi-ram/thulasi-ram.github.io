@@ -6,8 +6,8 @@ order: 2
 ## RMS Products, Treebo
 _December 2018 - present_  
 Overseeing the stability and scalability on RMS front.
-* Re Architected the pricing system to be driven by domain events and aysnc message passing with Rabbitmq.
-* Scaled the discounts and coupon system built in java which uses the Drools engine for pattern mataching and rule evaluation  
+* Re Architected the pricing system to be driven by domain events and async message passing with Rabbitmq.
+* Scaled the discounts and coupon system built in java which uses the Drools engine for pattern matching and rule evaluation  
 * Stabilized the inhouse catalog system and have developed an comprehensive onboarding system
 * Spent part of the time in devops by creating pipelines, dockerizing projects and other cost cutting initiatives
 
