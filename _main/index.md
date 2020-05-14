@@ -1,8 +1,9 @@
 ---
-title: /me
+title: Ahiravan's home
 layout: home
 description: Ahiravan's home and landing page
 permalink: /
+nav_bar_title: /me
 ---
 
 

@@ -1,8 +1,9 @@
 ---
-title: /work
+title: Ahiravan's projects
 layout: work
 description: Ahiravan's experience, projects and volunteering
 permalink: /work
+nav_bar_title: /work
 ---
 
 # Experience

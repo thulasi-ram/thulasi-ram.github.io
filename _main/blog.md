@@ -1,8 +1,9 @@
 ---
-title: /blog
+title: Ahiravan's blog
 layout: blog
 description: Ahiravan's blog posts, thoughts and musings on Tech and others
 permalink: /blog
+nav_bar_title: /blog
 ---
 
 # Blog
