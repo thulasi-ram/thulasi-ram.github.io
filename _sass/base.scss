@@ -165,7 +165,7 @@ body {
 	padding: 0;  
 	font-family: $base-font-family;  
 	font-size: $base-font-size;  
-	font-display: fallback;
+	font-display: swap;
 	color: var(--text-color);  
 	text-align: left;  
 	line-height: $base-line-height !important;
