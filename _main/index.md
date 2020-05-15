@@ -15,9 +15,9 @@ nav_bar_title: /me
   	<p>I am a backend engineer and a web developer based out of Bengaluru, India.</p> 
   	<p align="center" style="font-weight:bold;" id="typed2"> pragmatist • purist • minimalist </p>
   	<p align="center" >
-  		<a href="{{ "/work" }}" class="has-text-centered more"> experience </a> 
+  		<a href="{{ "/work" }}" class="has-text-centered more"> experience &#10132;</a> 
   		<span> 	&nbsp; &nbsp; </span>
-  		<a href="{{ "/more" }}" class="has-text-centered more"> contact </a>
+  		<a href="{{ "/more" }}" class="has-text-centered more"> contact &#10132;</a>
   	</p>
   </span>
 </div>
