@@ -13,21 +13,21 @@ $table-head-cell-color: var(--text-color) !important;
 $table-foot-cell-color: var(--text-color);
 $tabs-border-bottom-width: 2px;
 
-@import "bulma-0.8.0/bulma.sass";
+// @import "bulma-0.8.0/bulma.sass";
 
-// @import "bulma-0.8.0/sass/utilities/_all.sass";
-// @import "bulma-0.8.0/sass/base/_all.sass";
+@import "bulma-0.8.0/sass/utilities/_all.sass";
+@import "bulma-0.8.0/sass/base/_all.sass";
 
-// @import "bulma-0.8.0/sass/layout/section.sass";
-// @import "bulma-0.8.0/sass/grid/_all.sass";
+@import "bulma-0.8.0/sass/layout/section.sass";
+@import "bulma-0.8.0/sass/grid/_all.sass";
 
-// @import "bulma-0.8.0/sass/elements/content.sass";
-// @import "bulma-0.8.0/sass/elements/table.sass";
-// @import "bulma-0.8.0/sass/elements/title.sass";
+@import "bulma-0.8.0/sass/elements/content.sass";
+@import "bulma-0.8.0/sass/elements/table.sass";
+@import "bulma-0.8.0/sass/elements/title.sass";
 
-// @import "bulma-0.8.0/sass/components/message.sass";
-// @import "bulma-0.8.0/sass/components/navbar.sass";
-// @import "bulma-0.8.0/sass/components/tabs.sass";
+@import "bulma-0.8.0/sass/components/message.sass";
+@import "bulma-0.8.0/sass/components/navbar.sass";
+@import "bulma-0.8.0/sass/components/tabs.sass";
 
 
 /**
