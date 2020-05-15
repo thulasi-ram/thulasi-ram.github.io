@@ -1,7 +1,7 @@
 ---
 title: Ahiravan's home
 layout: home
-description: Ahiravan's home and landing page
+description: I am a backend engineer and a web developer based out of Bengaluru, India.
 permalink: /
 nav_bar_title: /me
 ---

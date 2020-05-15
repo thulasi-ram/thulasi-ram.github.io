@@ -2,23 +2,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta property="og:title" content="{{ page.title }}" />
-    <meta property="og:type" content="website" />
+    <!-- remove once seo tags set og:type -->
+    <meta property="og:type" content="website" /> 
 
-    {%- if page.url == "/" -%}
-    <meta property="og:url" content={{ "" | absolute_url }} />
-    {%- else -%}
-    <meta property="og:url" content={{ page.url | absolute_url }} />
-    {%- endif -%}
-
-    {%- if page.preview_image -%}
-    <meta property="og:image" content={{ page.preview_image }} />
-    {%- else -%}
-    <meta property="og:image" content={{ "/favicon.png" | absolute_url }} />
-    {%- endif -%}
-
-    <title>{{ page.title }}</title>
-    {%- seo title=false -%}
+    {%- seo -%}
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="stylesheet" type="text/css" href="{{ "/assets/common.css" | relative_url }}">

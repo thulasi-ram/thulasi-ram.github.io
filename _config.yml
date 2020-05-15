@@ -25,3 +25,30 @@ sass:
 
 resume_google_doc_url: https://docs.google.com/document/d/19U1NSPc4tTiaVzpPasZLVVWPzhY13PPFXWlBGOop7sE
 google_analytics_id: UA-166104383-1
+
+logo: /favicon.png
+twitter:
+  username: ahiravan1
+  card: summary
+
+social:
+  name: Thulasi ram
+  links:
+    - https://twitter.com/ahiravan1
+    - https://www.facebook.com/thulasi503
+    - https://www.linkedin.com/in/thulasi-ram
+    - https://github.com/thulasi-ram
+
+author:
+  twitter: ahiravan1
+
+# front matter defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /favicon.png
+      type: website
+      seo:
+        name: Ahiravan's portfolio
+        type: Person
