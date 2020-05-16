@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "dark.css",
+	"sources": [
+		"dark.scss",
+		"_sass/_dark.scss"
+	],
+	"sourcesContent": [
+		"@import \"dark\";\n",
+		":root {\n  --background-color: #121212;\n  --base-color: #FFFFFF;\n  --border: dashed 1px #FFFFFF;\n  --selection-background: #fffffffa;\n  --selection-text: #121212;\n  --text-color: var(--base-color);\n  --placeholder-color: var(--base-color);\n  --link-color: var(--base-color);\n  --tab-underline: #3c3b3b;\n  --tab-hover-underline: #787878;\n  --footer-text: #bbbbbb;\n}"
+	],
+	"names": [],
+	"mappings": "CCAC,AAAD,IAAK,AAAC,CACJ,kBAAkB,CAAA,QAAC,CACnB,YAAY,CAAA,QAAC,CACb,QAAQ,CAAA,mBAAC,CACT,sBAAsB,CAAA,UAAC,CACvB,gBAAgB,CAAA,QAAC,CACjB,YAAY,CAAA,kBAAC,CACb,mBAAmB,CAAA,kBAAC,CACpB,YAAY,CAAA,kBAAC,CACb,eAAe,CAAA,QAAC,CAChB,qBAAqB,CAAA,QAAC,CACtB,aAAa,CAAA,QAAC,CACf"
+}

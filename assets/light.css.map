@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "light.css",
+	"sources": [
+		"light.scss",
+		"_sass/_light.scss"
+	],
+	"sourcesContent": [
+		"@import \"light\";\n",
+		":root {\n  --background-color: #FFF;\n  --base-color: #000;\n  --border: dashed 1px rgba(0, 0, 0, 1);\n  --selection-background: rgba(0, 0, 0, 0.99);\n  --selection-text: #FFF;\n  --text-color: var(--base-color);\n  --placeholder-color: var(--base-color);\n  --link-color: var(--base-color);\n  --tab-underline: #f5f5f5;\n  --tab-hover-underline: #dbdbdb;\n  --footer-text: #5d5d5d;\n}"
+	],
+	"names": [],
+	"mappings": "CCAC,AAAD,IAAK,AAAC,CACJ,kBAAkB,CAAA,KAAC,CACnB,YAAY,CAAA,KAAC,CACb,QAAQ,CAAA,4BAAC,CACT,sBAAsB,CAAA,oBAAC,CACvB,gBAAgB,CAAA,KAAC,CACjB,YAAY,CAAA,kBAAC,CACb,mBAAmB,CAAA,kBAAC,CACpB,YAAY,CAAA,kBAAC,CACb,eAAe,CAAA,QAAC,CAChB,qBAAqB,CAAA,QAAC,CACtB,aAAa,CAAA,QAAC,CACf"
+}

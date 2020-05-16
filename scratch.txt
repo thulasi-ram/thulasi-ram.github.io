@@ -1,0 +1,6 @@
+eval "$(rbenv init -)"
+rbenv shell 2.7.0
+gem install
+bundle exec jekyll serve
+
+Logo Font: Wyvern wings
