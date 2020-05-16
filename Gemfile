@@ -3,14 +3,12 @@
 source "https://rubygems.org"
 gemspec
 
-
+gem "s3_website"
+gem "jekyll"
 group :jekyll_plugins do
-  gem "jekyll"
-  gem "json"
-  gem "hash-joiner"
+
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
 end
-
 
 
