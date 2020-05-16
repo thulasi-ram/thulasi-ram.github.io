@@ -7,12 +7,16 @@ install: bundle install
 script:
   - JEKYLL_ENV=production bundle exec jekyll build --destination site
 deploy:
-  provider: pages
-  local-dir: ./site
-  target-branch: dist
-  skip_cleanup: true
-  github_token: $TRAVIS_GH_TOKEN  # Set in the settings page of your repository, as a secure variable
-  keep_history: true
-  on:
-    branch: master
-after_success: s3_website push
+  - provider: pages
+    local-dir: ./site
+    target-branch: dist
+    skip_cleanup: true
+    github_token: $TRAVIS_GH_TOKEN  # Set in the settings page of your repository, as a secure variable
+    keep_history: true
+    on:
+      branch: master
+  - provider: s3
+    access_key_id: $S3_ACCESS_KEY_ID
+    secret_access_key: $S3_SECRET_KEY
+    bucket: "ahiravan.dev"
+    skip_cleanup: true
