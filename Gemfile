@@ -5,7 +5,9 @@ gemspec
 
 
 group :jekyll_plugins do
-  gem "github-pages"
+  gem "jekyll"
+  gem "json"
+  gem "hash-joiner"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
 end
