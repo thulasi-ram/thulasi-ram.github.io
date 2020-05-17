@@ -53,3 +53,6 @@ defaults:
       seo:
         name: Ahiravan's portfolio
         type: Person
+
+simple_cdn:
+  url: d2yxf2s8z86wlg.cloudfront.net
