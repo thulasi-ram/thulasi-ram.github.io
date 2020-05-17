@@ -7,6 +7,13 @@ install: bundle install
 script:
   - JEKYLL_ENV=production bundle exec jekyll build --destination site
 deploy:
+  - provider: s3
+    access_key_id: $S3_ACCESS_KEY_ID
+    secret_access_key: $S3_SECRET_KEY
+    local_dir: ./site/assets
+    bucket: "assets.ahiravan.dev"
+    skip_cleanup: true
+    region: "ap-south-1"
   - provider: pages
     local-dir: ./site
     target-branch: master
@@ -15,10 +22,4 @@ deploy:
     keep_history: true
     on:
       branch: release
-  - provider: s3
-    access_key_id: $S3_ACCESS_KEY_ID
-    secret_access_key: $S3_SECRET_KEY
-    local_dir: ./site/assets
-    bucket: "assets.ahiravan.dev"
-    skip_cleanup: true
-    region: "ap-south-1"
+
