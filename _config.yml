@@ -54,6 +54,3 @@ defaults:
         name: Ahiravan's portfolio
         type: Person
 
-simple_cdn:
-  enabled: false
-  url: https://assets.ahiravan.dev
