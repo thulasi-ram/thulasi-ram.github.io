@@ -34,3 +34,18 @@ Setting up https for assets.ahiravan.dev
 # help: https://medium.com/@deepak13245/hosting-a-https-static-websites-using-s3-and-lets-encrypt-6f3e53014ff2
 # explore: https://etherarp.net/lets-encrypt-and-amazon-s3/
 > sudo certbot certonly --manual --preferred-challenges dns --email ***@gmail.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos -d '*.ahiravan.dev'
+
+
+There was a problem of cross origin just for mjs file.
+1. Go to cloud front cache based on headers -. white list -> Access-Control-Request-Haaders,Access-Control-Request-Method,Origin
+2. Go to s3 ->cors settings:
+<?xml version="1.0" encoding="UTF-8"?>
+<CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
+<CORSRule>
+    <AllowedOrigin>https://ahiravan.dev</AllowedOrigin>
+    <AllowedMethod>GET</AllowedMethod>
+    <AllowedMethod>HEAD</AllowedMethod>
+    <AllowedHeader>*</AllowedHeader>
+</CORSRule>
+</CORSConfiguration>
+
