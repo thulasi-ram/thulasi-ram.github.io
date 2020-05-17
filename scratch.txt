@@ -28,3 +28,9 @@ I missed a point... cloudfrot needs <domain.com>/work.html and not <domain.com>/
 So will resort to serving assets via cloudfront and use github pages.
 But github pages can only use master branch to serve. 
 So use travis to build _site -> upload _site to master branch, upload assets to s3 and use cloudfront there.
+
+Setting up https for assets.ahiravan.dev
+> brew install certbot
+# help: https://medium.com/@deepak13245/hosting-a-https-static-websites-using-s3-and-lets-encrypt-6f3e53014ff2
+# explore: https://etherarp.net/lets-encrypt-and-amazon-s3/
+> sudo certbot certonly --manual --preferred-challenges dns --email ***@gmail.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos -d '*.ahiravan.dev'
