@@ -16,6 +16,7 @@ deploy:
     bucket: "assets.ahiravan.dev"
     skip_cleanup: true
     region: "ap-south-1"
+    upload-dir: assets
     on:
       branch: release
   - provider: pages

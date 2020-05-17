@@ -55,4 +55,4 @@ defaults:
         type: Person
 
 simple_cdn:
-  url: d2yxf2s8z86wlg.cloudfront.net
+  url: https://d2yxf2s8z86wlg.cloudfront.net
