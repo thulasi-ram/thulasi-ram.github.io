@@ -6,11 +6,11 @@
     <meta property="og:type" content="website" /> 
 
     {%- seo -%}
-    <link rel="shortcut icon" type="image/png" href="{{ "/assets/favicon.png" | relative_url }}">
-    <link rel="apple-touch-icon" href="{{ "/assets/apple-touch-icon.png" | relative_url }}">
+    <link rel="shortcut icon" type="image/png" href="{% simple_cdn "/assets/favicon.png" %}">
+    <link rel="apple-touch-icon" href="{% simple_cdn "/assets/apple-touch-icon.png" %}">
     <link rel="stylesheet" type="text/css" href="{% simple_cdn "/assets/common.css" %}">
-    <link rel="stylesheet" type="text/css" href="{{ "/assets/light.css" | relative_url }}" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
-    <link rel="stylesheet" type="text/css" href="{{ "/assets/dark.css" | relative_url }}" media="(prefers-color-scheme: dark)">
+    <link rel="stylesheet" type="text/css" href="{% simple_cdn "/assets/light.css" %}" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+    <link rel="stylesheet" type="text/css" href="{% simple_cdn "/assets/dark.css" %}" media="(prefers-color-scheme: dark)">
        <link rel="preload" href="https://fonts.googleapis.com/css?family=Sen:400,700&display=swap" as="style">
          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sen:400,700&display=swap">
 
