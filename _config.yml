@@ -55,4 +55,5 @@ defaults:
         type: Person
 
 simple_cdn:
+  enabled: false
   url: https://assets.ahiravan.dev

@@ -12,9 +12,10 @@ class SimpleCdnTag < Liquid::Tag
 
   def render(context)
     baseurl = "#{lookup(context, 'site.simple_cdn.url')}"
+    is_enabled = "#{lookup(context, 'site.simple_cdn.enabled')}"
     env = "#{lookup(context, 'jekyll.environment')}"
-
-    if env == "production"
+    puts is_enabled
+    if env == "production" and is_enabled.to_s == "true"
       url = "{{ #{@input} | prepend: \"#{baseurl}\" }}"
     else
       url = "{{ #{@input} | relative_url }}"

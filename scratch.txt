@@ -6,6 +6,7 @@ bundle exec jekyll serve
 Logo Font: Wyvern wings
 
 
+# 16th May,2020
 
 # How did I set my cloudfront
 
@@ -23,18 +24,21 @@ Go to s3:
 	1. Select assets folder -> more -> add metadata -> set key -> Cache-Control: 86400
 	2. Select 404 and license -> Cache for oneyear
 
+# 16th May,2020
 
 I missed a point... cloudfrot needs <domain.com>/work.html and not <domain.com>/work
 So will resort to serving assets via cloudfront and use github pages.
 But github pages can only use master branch to serve. 
 So use travis to build _site -> upload _site to master branch, upload assets to s3 and use cloudfront there.
 
+# 17th May,2020
 Setting up https for assets.ahiravan.dev
 > brew install certbot
 # help: https://medium.com/@deepak13245/hosting-a-https-static-websites-using-s3-and-lets-encrypt-6f3e53014ff2
 # explore: https://etherarp.net/lets-encrypt-and-amazon-s3/
 > sudo certbot certonly --manual --preferred-challenges dns --email ***@gmail.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos -d '*.ahiravan.dev'
 
+# 17th May,2020
 
 There was a problem of cross origin just for mjs file.
 1. Go to cloud front cache based on headers -. white list -> Access-Control-Request-Haaders,Access-Control-Request-Method,Origin
@@ -49,3 +53,7 @@ There was a problem of cross origin just for mjs file.
 </CORSRule>
 </CORSConfiguration>
 
+
+# 17th May,2020
+
+Seems like my config misses something. Moving back to github pages since the whole reason of doing cloudfront was to improve google pagespeed. Unfortunately I have achieved the inverse. PageSpeed count has dropped.
