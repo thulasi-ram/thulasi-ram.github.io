@@ -13,8 +13,8 @@
     </main>
     {%- include footer.html -%}
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-    <script type="text/javascript" src="{% simple_cdn "/assets/ahiravan.js" %}"></script>
-    <script type="module" src="{% simple_cdn "/assets/dark-mode-toggle.min.mjs" %}"></script>
+    <script type="text/javascript" src="{{ "/assets/ahiravan.js" | relative_url }}"></script>
+    <script type="module" src="{{ "/assets/dark-mode-toggle.min.mjs" | relative_url }}"></script>
 </body>
 
 </html>
