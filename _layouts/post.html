@@ -21,7 +21,7 @@ layout: default
 <span>&nbsp;•&nbsp;</span>
 <span>
 	                {% for tag in page.tags %}
-                    <a href="/tags/#{{ tag | slugify }}"> {{ tag }} </a>
+                    <a href="/tags#{{ tag | slugify }}"> {{ tag }} </a>
                     {% unless forloop.last %} <span>,</span>{% endunless %}
     
                 {% endfor %}
