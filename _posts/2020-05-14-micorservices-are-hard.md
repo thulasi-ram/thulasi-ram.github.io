@@ -2,10 +2,8 @@
 layout: post
 title: Microservices are hard
 tags: [programming, rant]
+permalink: /blog/:title/
 ---
-
-Microservices are hard
-======================
 
 #### /rant
 

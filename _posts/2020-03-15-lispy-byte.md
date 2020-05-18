@@ -3,10 +3,8 @@ layout: post
 title: Lispy Byte
 tags: [programming, thoughts]
 status: wip
+permalink: /blog/:title/
 ---
-
-Lispy Byte
-==========
 
 My musings with lisp
 

@@ -60,4 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initTabs();
 
 
+  anchors.options = { icon: '¶'};
+  anchors.add();
+
 });

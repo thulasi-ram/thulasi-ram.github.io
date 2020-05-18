@@ -12,4 +12,22 @@ layout: default
 
 {%- endif -%}
 
+
+<h1 class="title"> {{page.title}} </h1>
+<p class="subtitle post_meta">
+<span>{{page.date | date_to_string }}</span> 
+<span>&nbsp; • &nbsp;</span>
+<span>{%- include read_time.html -%}</span>
+<span>&nbsp;•&nbsp;</span>
+<span>
+	                {% for tag in page.tags %}
+                    <a href="/tags/#{{ tag | slugify }}"> {{ tag }} </a>
+                    {% unless forloop.last %} <span>,</span>{% endunless %}
+    
+                {% endfor %}
+</span>
+
+</p>
+
+
 {{ content }}
