@@ -3,7 +3,7 @@ layout: post
 title: Lispy Byte
 tags: [programming, thoughts]
 status: wip
-permalink: /blog/:title/
+permalink: /:title
 ---
 
 My musings with lisp
