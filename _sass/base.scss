@@ -12,6 +12,9 @@ $table-cell-heading-color: var(--text-color);
 $table-head-cell-color: var(--text-color) !important;
 $table-foot-cell-color: var(--text-color);
 $tabs-border-bottom-width: 2px;
+$pre-background: var(--background-color);
+$pre-padding1: 0px;
+$pre-font-size: 1em;
 
 // @import "bulma-0.8.0/bulma.sass";
 
@@ -192,7 +195,12 @@ body {
 h1, h2, h3, h4, h5, h6 {color: var(--text-color) !important; }
 p, ul, ol {color: var(--text-color); }
 a { text-decoration: underline;  color: var(--link-color); }
-a:hover { color: var(--background-color); background-color: var(--base-color); }
+a:hover { 
+	color: var(--background-color); 
+	background-color: var(--base-color); 
+		transition: all 5s ease;
+	-webkit-transition: all .5s ease;
+}
 
 ::selection { background: var(--selection-background);  color: var(--selection-text); }
 ::-moz-selection { background: var(--selection-background);  color: var(--selection-text); }
@@ -242,4 +250,24 @@ textarea { vertical-align: top; }
   color: white;
   background-color: black;
 
+}
+
+.content pre {
+	padding: 0px;
+	margin: 1em 10px;
+}
+
+.anchorjs-link{
+	text-decoration: none; 
+	color: var(--link-color);
+	transition: all 5s ease;
+	-webkit-transition: all .5s ease;
+}
+
+.anchorjs-link:hover{
+	text-decoration: bold; 
+	color: var(--text-color);
+	background-color: var(--background-color);
+	transition: all 5s ease;
+	-webkit-transition: all .5s ease;
 }

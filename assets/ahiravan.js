@@ -63,4 +63,10 @@ document.addEventListener('DOMContentLoaded', () => {
   anchors.options = { icon: '¶'};
   anchors.add();
 
+  hljs.configure({
+    tabReplace: '    ',
+    languages: ['python'],
+  });
+  hljs.initHighlighting();
+
 });
