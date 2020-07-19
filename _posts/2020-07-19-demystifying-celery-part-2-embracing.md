@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Demystifying celery - Part 2 - Embracing
-tags: [programming, blog, draft]
+tags: [programming, blog]
+status: wip
 permalink: /:title
 ---
 
