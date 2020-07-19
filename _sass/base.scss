@@ -168,7 +168,7 @@ blockquote a:hover {
 
 html { 
 	background-color: var(--background-color) !important;
-    transition: color var(--duration) var(--timing), background-color var(--duration) var(--timing);
+    // transition: color var(--duration) var(--timing), background-color var(--duration) var(--timing);
 }
 
 @keyframes fade-in {
@@ -177,7 +177,7 @@ html {
 }
 
 body { 
-	transition: color var(--duration) var(--timing), background-color var(--duration) var(--timing);
+	// transition: color var(--duration) var(--timing), background-color var(--duration) var(--timing);
 	animation-name: fade-in;
 	animation-duration: var(--duration);
 	visibility: visible;
@@ -198,7 +198,7 @@ a { text-decoration: underline;  color: var(--link-color); }
 a:hover { 
 	color: var(--background-color); 
 	background-color: var(--base-color); 
-		transition: all 5s ease;
+	transition: all .5s ease;
 	-webkit-transition: all .5s ease;
 }
 
@@ -260,7 +260,7 @@ textarea { vertical-align: top; }
 .anchorjs-link{
 	text-decoration: none; 
 	color: var(--link-color);
-	transition: all 5s ease;
+	transition: all .5s ease;
 	-webkit-transition: all .5s ease;
 }
 
@@ -268,6 +268,6 @@ textarea { vertical-align: top; }
 	text-decoration: bold; 
 	color: var(--text-color);
 	background-color: var(--background-color);
-	transition: all 5s ease;
+	transition: all .5s ease;
 	-webkit-transition: all .5s ease;
 }
